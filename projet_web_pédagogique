@@ -7,7 +7,959 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Découvrir Diamniadio : Nouvelle ville du Sénégal</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-</head>/* Style général de la page */
+</head>
+
+<body>
+
+  <!-- EN-TÊTE DU SITE -->
+  <header>
+
+    <!-- Conteneur du logo du haut -->
+    <div class="logo-top">
+      <img src="image/logo.png" alt="Logo de Paris 8" id="logo1">
+    </div>
+          
+    <!-- Titre principal -->
+    <h1>Découvrir Diamniadio : L’ambitieux pari de la nouvelle ville du Sénégal</h1>
+
+    <!-- MENU DE NAVIGATION SIMPLE -->
+    <nav>
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+
+      <!-- Section d’introduction -->
+    <section class="intro">
+
+      <!-- Titre général de la section -->
+      <h2 class="intro-title">
+        Qu’est-ce que Diamniadio et pourquoi cette ville a-t-elle été créée ?
+      </h2>
+
+      <!-- Conteneur texte + image (FLEX) -->
+      <div class="intro-content">
+
+        <!-- Colonne texte -->
+        <div class="intro-text">
+          <p>
+            Diamniadio est une ville nouvelle située à environ 30 km de Dakar, 
+            conçue par l’État du Sénégal pour désengorger la capitale. 
+            Développée sur près de 2000 hectares, elle a vocation à accueillir jusqu’à 350 000 habitants. 
+            En pleine expansion, la ville s’impose progressivement comme un pôle économique et urbain majeur, 
+            soutenu par des infrastructures modernes, des équipements stratégiques et des projets innovants comme la Cité du Savoir, 
+            orientée vers les technologies et le développement urbain planifié.
+          </p>
+        </div>
+
+        <!-- Colonne image -->
+        <figure class="bloc-image">
+        <div class="intro-image">
+          <img src="image/image.jpg" alt="projet de développement urbain de Diamniadio ">
+        </div>
+
+          <figcaption>
+            Vue aérienne du projet de développement urbain de la nouvelle ville de Diamniadio.
+          </figcaption>
+          </figure>
+
+      </div> 
+    </section>
+
+    <!-- Objectif du site -->
+    <section class="objectif">
+    <h3>À propos du site</h3>
+
+      <ul class="objectif-schema">
+        <li>
+          <strong>Observer</strong> la naissance et l’évolution de la ville de Diamniadio.
+        </li>
+        <li>
+          <strong>Comprendre</strong> le rôle des infrastructures dans son développement.
+        </li>
+        <li>
+          <strong>Analyser</strong> les enjeux urbains, économiques et environnementaux.
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-text">
+      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
+      </p>
+
+      <!-- Navigation du pied de page -->
+    <nav class="footer-nav">
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+        
+    <!-- Ligne basse -->
+     <div class="footer-bottom">
+        <p class="footer-copyright">
+        © 2026 – Site réalisé dans le cadre d’un projet univ
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+   <!-- Rend le site adapté aux écrans mobiles (responsive) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> Diamniadio : Histoire & projet urbain </title>
+  
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- EN-TÊTE DU SITE -->
+  <header>
+
+     <!-- Conteneur du logo du haut -->
+    <div class="logo-top">
+      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
+    </div>
+          
+    <!-- Titre principal du site -->
+    <h1>Evolution et transformation de la ville de Diamniadio : <br> 
+      Histoire et projet urbain</h1>
+    
+    <nav>
+      <!-- Zone de navigation du site -->
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+      
+    </nav>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+
+    <!--  SECTION : DIAMNIADIO AVANT  -->
+    
+    <section class="bloc">
+      <h2>Diamniadio avant</h2>
+
+      <!-- Conteneur flex -->
+      <div class="bloc-contenu">
+
+        <!-- Texte -->
+        <div class="bloc-texte">
+          <p>
+            Avant son développement, Diamniadio était principalement une zone rurale, 
+            faiblement peuplée et dominée par des activités agricoles, avec peu d’infrastructures urbaines. 
+            Sa transformation en pôle économique et urbain résulte d’investissements publics et de projets d’aménagement 
+            visant à stimuler la croissance économique et à créer de nouvelles opportunités. 
+            L’aménagement de la ville a notamment permis la délocalisation de certaines institutions de l’État 
+            ainsi que la construction d’infrastructures sportives, éducatives et de conférences internationales.
+      </p>
+        </div>
+
+        <!-- Image + légende -->
+        <figure class="bloc-image">
+          <img src="image/image1.jpg" alt="Paysage rural de Diamniadio avant son développement">
+          <figcaption>
+            Vue du ciel de la zone rurale de Diamniadio 
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECTION : DIAMNIADIO AUJOURD'HUI -->
+    <section class="bloc">
+      <h2>Diamniadio aujourd’hui</h2>
+
+      <!-- Conteneur flex -->
+      <div class="bloc-contenu">
+
+        <!-- Texte à gauche -->
+        <div class="bloc-texte">
+          <p>
+            À l’heure actuelle, Diamniadio s’affirme comme un pôle économique et urbain majeur au Sénégal, 
+            caractérisé par une dynamique de développement rapide. 
+            De nombreux projets d’aménagement, de construction et d’infrastructures sont en cours, 
+            renforçant l’attractivité de la ville à la fois comme centre d’affaires et espace résidentiel.
+          </p>
+
+          <p>
+            Lancé à partir de 2014, le projet de développement de Diamniadio repose sur des partenariats 
+            entre l’État sénégalais et plusieurs promoteurs nationaux et internationaux, notamment 
+            GETRAN, SENEGINDIA, Teyliom, Alliance, Médina Invest et Doozy Gulf Group.
+          </p>
+
+          <p>
+            Ces collaborations ont permis la réalisation d’infrastructures structurantes telles que 
+            la Maison des Nations Unies, la zone industrielle, l’Université Amadou Mahtar Mbow, 
+            le Train Express Régional (TER), ainsi que des équipements hôteliers et immobiliers.
+          </p>
+        </div>
+
+        <!-- Image + légende à droite -->
+        <figure class="bloc-image">
+          <img src="image/image2.jpg" alt="Maquette du projet Diamniadio Lake City">
+
+          <figcaption>
+            Maquette du projet de développement urbain Diamniadio Lake City 
+          </figcaption>
+
+          <p>
+            Diamniadio Lake City est un projet urbain futuriste situé à environ 30 km de Dakar, 
+            conçu dans le cadre du Plan Sénégal Émergent. Il vise à accueillir jusqu’à 350 000 habitants 
+            et à devenir une référence du développement urbain en Afrique de l’Ouest.
+          </p>
+        </figure>
+
+      </div>
+    </section>
+
+    
+
+    <!--  SECTION : OBJECTIFS ET INNOVATIONS DU PROJET URBAIN -->
+    <section class="bloc">
+     
+      <h2>Objectifs et innovations du projet urbain de Diamniadio</h2>
+      <!--Permet d'entouer le tableau-->
+      <div class="table-wrapper"> 
+      <!-- table : crée un tableau (lignes/colonnes) -->
+      <table class="table-obj">
+
+      <!-- première ligne : titres des colonnes -->
+        <!-- tr : une ligne du tableau   th : cellule d'en-tête (titre de colonne) -->
+      <tr>   
+        <th>Objectifs</th>
+        <th>Description</th>
+        <th>Innovations associées</th>
+      </tr>
+
+      <!-- ligne 1  du tableau-->
+      <!-- td : cellule "normale" (contenu) -->
+      <tr>
+        <td><strong>Désengorger la ville de Dakar</strong></td>
+        <td>
+          Réduire la pression démographique et fonctionnelle sur la capitale
+          en transférant certaines activités et populations vers Diamniadio.
+        </td>
+        <td>
+          Développement du Train Express Régional (TER) et des infrastructures
+          de transport modernes.
+        </td>
+      </tr>
+
+      <!-- ligne 2 -->
+      <tr>
+        <td><strong>Créer une ville planifiée et moderne</strong></td>
+        <td>
+          Concevoir une ville structurée reposant sur une planification
+          urbaine anticipée des équipements, logements et services.
+        </td>
+        <td>
+          Urbanisme planifié, zonage fonctionnel et infrastructures connectées.
+        </td>
+      </tr>
+
+      <!-- ligne 3 -->
+      <tr>
+        <td><strong>Renforcer l’attractivité économique</strong></td>
+        <td>
+          Attirer entreprises et institutions afin de dynamiser l’économie
+          locale et nationale.
+        </td>
+        <td>
+          Création de pôles d’activités, zones économiques et quartiers d’affaires.
+        </td>
+      </tr>
+
+      <!-- ligne 4 -->
+      <tr>
+        <td><strong>Développer des projets innovants</strong></td>
+        <td>
+          Intégrer l’innovation, les nouvelles technologies et les principes
+          du développement durable dans le projet urbain.
+        </td>
+        <td>
+          Concepts de smart city, solutions numériques et critères environnementaux.
+        </td>
+      </tr>
+
+    </table>
+    </div>
+    </section>
+
+    <!-- SECTION : ENJEUX ET DÉFIS -->
+    <section class="bloc">
+
+      <h2>Enjeux et défis</h2>
+
+      <p>
+        Le développement de Diamniadio s’inscrit dans une dynamique de planification urbaine visant à accompagner la croissance de la région dakaroise. 
+        Cette évolution rapide pose toutefois des enjeux importants en matière de mobilité, 
+        d’accès aux services urbains essentiels (eau, électricité, assainissement), de logements et d’équipements publics. 
+        La maîtrise de l’urbanisation et la prise en compte des enjeux environnementaux constituent également des défis majeurs 
+        afin d’assurer un développement équilibré et durable. La réussite du projet repose ainsi sur une gouvernance efficace et une planification cohérente, 
+        capables d’anticiper les besoins futurs et d’améliorer durablement la qualité de vie des habitants.
+      </p>
+    </section>
+
+  </main>
+
+ <!-- PIED DE PAGE -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-text">
+      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
+      </p>
+
+      <!-- Navigation du pied de page -->
+    <nav class="footer-nav">
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+        
+    <!-- Ligne basse -->
+     <div class="footer-bottom">
+        <p class="footer-copyright">
+        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
+        </p>
+        <div class="logo-bottom">
+          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
+        </div> 
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>ersitaire. Tous droits réservés.
+        </p>
+        <div class="logo-bottom">
+          <img src="image/logoSen.jpg" alt="Logo du Sénég
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <!-- Responsive : adapté aux mobiles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Titre de l’onglet du navigateur -->
+  <title>Infrastructures majeures de Diamniadio</title>
+  
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <!-- Logo du haut -->
+    <div class="logo-top">
+      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
+    </div>
+
+    <!-- Titre principal -->
+    <h1>Infrastructures majeures et équipements structurants de Diamniadio</h1>
+
+    <!-- Menu de navigation -->
+    <nav>
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+
+    <!-- Titre + introduction -->
+    <section class="page-title">
+      <h2>Infrastructures et lieux clés</h2>
+      <p>
+        Diamniadio accueille des équipements structurants qui renforcent son rôle de pôle urbain,
+        économique et institutionnel. Voici quelques infrastructures majeures.
+      </p>
+
+      <!-- Liens rapides -->
+      <p class="quick-links">
+        <a href="#onu">Maison de l’ONU</a> |
+        <a href="#ter">TER</a> |
+        <a href="#stade">Stade Abdoulaye Wade</a> |
+        <a href="#arena">Dakar Arena</a> |
+        <a href="#uam">Université UAM</a> |
+        <a href="#zone">Zone industrielle</a> |
+        <a href="#aibd">Aéroport AIBD</a>
+      </p>
+    </section>
+
+    <!-- INFRA 1 -->
+    <section class="bloc" id="onu">
+      <h3>La maison des Nations Unies</h3>
+      
+      <!-- .bloc-content = conteneur Flex (organisation en 2 colonnes) -->
+      <div class="bloc-content">
+
+    <!-- .bloc-text = colonne du texte -->
+     <div class="bloc-text">
+        <p>
+        La maison des nations unies est un projet situé dans la ville de Diamniadio, au Sénégal. 
+        Il s’agit d’un complexe qui abrite les différentes agences des Nations Unies ainsi que d’autres organisations internationales. 
+        Ce projet vise à renforcer la présence et l’efficacité des Nations Unies dans la région, 
+        en fournissant un espace commun pour la coordination et la collaboration entre les différentes agences et partenaires. 
+        Cette maison des Nations Unies est la vision commune de coopération entre le Sénégal 
+        et les Nations Unies pour promouvoir un avenir de paix,
+        de dignité et de prospérité pour le peuple sénégalais, la région et pour toute l’Afrique.
+        Cet édifice est la contribution à la stratégie de l’organisation visant à créer une nouvelle synergie souhaitée 
+        entre les différentes entités chargées des activités opérationnelles du développement, 
+        de façon à améliorer leur collaboration et leur efficacité.
+        </p>
+      </div>
+      
+        <!-- Image illustrative-->
+      <!-- Groupe image + légende -->
+        <figure class="bloc-image">
+          <img class="img-page" src="image/image3.jpg" alt="La maison de l'ONU à Diamniadio">
+
+          <!-- Source de l'image -->
+          <figcaption>
+          Vue aérienne de la Maison des Nations Unies à Diamniadio         
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- INFRA 2 -->
+    <section class="bloc" id="ter">
+      <h3>Le train Express Régional (TER)</h3>
+      <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+        Le Train Express Régional (TER) Dakar–Diamniadio est une ligne ferroviaire électrique mise en service le 27 décembre 2021, 
+        reliant la capitale à Diamniadio, avec une extension prévue jusqu’à l’aéroport international Blaise Diagne (AIBD). 
+        Long de 36 km dans sa première phase et desservant 13 gares, il vise à améliorer la mobilité, réduire les embouteillages à Dakar 
+        et renforcer la connexion avec les villes nouvelles. Entièrement électrifié et à écartement standard, 
+        le TER constitue une infrastructure majeure et innovante dans le réseau de transport sénégalais, 
+        avec à terme un trajet Dakar–AIBD de 55 km réalisé en environ 50 minutes. 
+        </p>
+      </div>
+
+      <figure class="bloc-image">
+        <img class="img-page" src="image/image4.jpg" alt="Le train Expresse Régional">
+
+        <!-- Source de l'image -->
+        <figcaption>
+        Le Train Express Régional Dakar–Diamniadio, un levier de la mobilité urbaine         
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+
+    <!-- INFRA 3 -->
+    <section class="bloc" id="stade">
+      <h3>Stade olympique de Diamniadio</h3>
+      <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+          Le stade Olympique de Diamniadio est un stade à l’anglaise sans piste d’athlétisme, 
+          avec une capacité de 50 000 places construite par la société turque Summa. 
+          Le projet a coûté environ 155 milliards de francs CFA 
+          et a été construit pour les besoins des Jeux Olympiques de jeunesse (JOJ) que Dakar va abriter en 2026 
+          mais également pour tenir des matchs de football de l’équipe nationale. 
+          Il porte le nom de l’ancien Président de la République Abdoulaye Wade. 
+          Deux ans après le début des travaux, le nouveau stade de Diamniadio a été réceptionné 
+          et inauguré par le chef de l’Etat Macky Sall le 22 février 2022.
+          Il est considéré comme l’un des stades les plus modernes du continent africain. 
+        </p>
+      </div>
+
+       <figure class="bloc-image">
+        <img class="img-page" src="image/image5.jpg" alt="Stade Abdoulaye Wade à Diamniadio">
+
+        <!-- Source de l'image -->
+        <figcaption>
+          Stade Abdoulaye Wade : infrastructure sportive emblématique du Sénégal      
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+
+    <!-- INFRA 4 -->
+    <section class="bloc" id="arena">
+      <h3>Dakar Arena</h3>
+
+       <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+          A côté du stade olympique de Diamniadio, se situe le Dakar Arena l’une des plus grandes arènes de basket en Afrique. 
+          Dakar Arena a l’ambitieux projet de contribuer au rayonnement du pays à travers les valeurs sportives et culturelles, 
+          accueillant entre autres sports, le basketball, le volleyball, les arts martiaux et le handball. 
+          Répondant aux normes internationales, il bénéficie d’équipements modernes adaptés aux activités ciblées. 
+          Une salle moderne de 15 000 places dédiée au spectacle, et est aussi destinée à être un espace de vie 
+          offrant à ses visiteurs des commodités pour des sorties en famille ou entre amis.
+        </p>
+      </div>
+        
+       <!-- image -->
+        <figure class="bloc-image">
+          <img class="img-page" src="image/image6.jpg" alt="Dakar Arena à Diamniadio">
+
+          <!-- Source de l'image -->
+          <figcaption>
+          La Dakar Arena, infrastructure sportive et culturelle majeure à Diamniadio        
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- INFRA 5 -->
+    <section class="bloc" id="uam">
+      <h3>Université Amadou Mahtar Mbow</h3>
+        
+      <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+          Inaugurée le 1er décembre 2022 après le lancement des travaux en 2015, 
+          l’Université Amadou Mahtar Mbow (UAM) est l’une des universités les plus modernes du Sénégal et d’Afrique. 
+          Baptisée en hommage à Amadou Mahtar Mbow, ancien directeur général de l’UNESCO, 
+          elle dispose d’infrastructures de haut niveau comprenant 19 laboratoires, 
+          de nombreux amphithéâtres de 200 à 1 000 places, un campus social de grande capacité avec environ 5 000 lits,
+          ainsi qu’un restaurant universitaire pouvant accueillir 1 000 personnes. Conçue pour accueillir jusqu’à 30 000 étudiants,
+          l’université met l’accent sur les formations professionnelles et innovantes 
+          afin de répondre aux besoins du développement socio-économique du Sénégal, 
+          tout en s’inscrivant dans une dynamique d’ouverture africaine et internationale 
+          et en contribuant aux objectifs du Plan Sénégal Émergent.
+        </p>
+      </div>
+
+          <figure class="bloc-image">
+
+            <img class="img-page" src="image/image7.jpg" alt="Université Amadou Mahtar Mbow à Diamniadio">
+
+            <!-- Source de l'image -->
+            <figcaption>
+            L’Université Amadou Mahtar Mbow, pôle d’enseignement supérieur moderne à Diamniadio        
+            </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- INFRA 6 -->
+    <section class="bloc" id="SD City">
+      <h3>Le Pojet SENEGINDIA City de Diamniadio </h3>
+      <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+        SENEGINDIA est une entreprise spécialisée dans la construction immobilière moderne et de standing, 
+        ainsi que dans l’agriculture innovante intégrant des technologies de pointe. 
+        Elle intervient à Dakar et dans sa périphérie, notamment à Diamniadio, 
+        à travers plusieurs projets immobiliers majeurs tels que Aquanique, SV City et SN City.
+        Parmi ces projets, SD City constitue un programme d’envergure implanté à Dakar et Diamniadio, 
+        prévoyant la réalisation de 2 500 appartements et villas sur une superficie de 58 hectares. 
+        Ce projet intègre des équipements sanitaires, socioculturels et sportifs, un hôtel cinq étoiles, 
+        des centres commerciaux, des infrastructures de mobilité ainsi que plus de 10 000 m² d’espaces verts.
+        Avec une forte présence d’espaces verts et une conception urbaine moderne, 
+        SD City s’inscrit comme un projet structurant contribuant à l’attractivité et à la qualité de vie du pôle urbain de Diamniadio.
+        </p>
+      </div>
+      
+        <figure class="bloc-image">
+          <img class="img-page" src="image/image8.jpg" alt="Le projet SENEGINDIA City à Diamniadio">
+
+          <!-- Source de l'image -->
+          <figcaption>
+          SD City : un cadre de vie moderne et durable au cœur de Diamniadio         
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+     <!-- INFRA 7 -->
+    <section class="bloc" id="Radison">
+      <h3>L'hotel Radison Blu </h3>
+        <!-- conteneur flex -->
+        <div class="bloc-content">
+
+        <!-- texte -->
+        <div class="bloc-text">
+          <p>
+          Radisson est un hôtel 5 étoiles qui occupe une place importante dans le processus d’urbanisation de la nouvelle ville. 
+          En raison de son impact sur le développement économique, sociale et physique,
+          elle fait partie des infrastructures qui donne une image rayonnante à la commune 
+          notamment en raison de la création d’emplois, du stimulus économique, du tourisme et de l’attractivité, 
+          le développement social ainsi que de l’aménagement du territoire à travers la planification urbaine de la ville.
+          Le Radisson hôtel offre un lieu central idéal pour les voyageurs d’affaires 
+          et de loisirs cherchant à bénéficier d’un séjour confortable à l’aéroport internationale Blaise Diagne (AIBD).  
+          </p>
+        </div>
+        
+          <figure class="bloc-image">
+            <img class="img-page" src="image/image9.jpg" alt="hotel Radison Blue à Diamiadio">
+
+            <!-- Source de l'image -->
+            <figcaption>
+              Le Radisson Blu, un hôtel haut de gamme au cœur de Diamniadio        
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+    <!-- INFRA 8 : NOUVELLE SECTION -->
+    <section class="bloc" id="aibd">
+      <h3>Aéroport International Blaise Diagne (AIBD)</h3>
+      <!-- conteneur flex -->
+      <div class="bloc-content">
+
+      <!-- texte -->
+      <div class="bloc-text">
+        <p>
+        L’Aéroport International Blaise Diagne (AIBD), situé à proximité immédiate de Diamniadio, 
+        représente une infrastructure stratégique majeure pour le Sénégal. 
+        Mis en service afin de remplacer l’ancien aéroport de Dakar-Yoff, 
+        il améliore significativement l’accessibilité internationale du pays 
+        et renforce sa connectivité avec l’Afrique et le reste du monde.
+        L’AIBD joue également un rôle moteur dans le développement économique national 
+        en facilitant les échanges commerciaux, le tourisme et l’implantation d’activités logistiques. 
+        Grâce à sa localisation stratégique et à sa connexion avec le Train Express Régional (TER) 
+        et les principaux axes routiers, il contribue à positionner Diamniadio comme un pôle logistique, 
+        de transport et de services à l’échelle régionale et internationale.
+        </p>
+      </div>
+        
+        <figure class="bloc-image">
+          <img class="img-page" src="image/image10.jpg" alt="Aéroport International Blaise Diagne">
+
+          <!-- Source de l'image -->
+          <figcaption>
+          L’Aéroport International Blaise Diagne : une infrastructure stratégique pour Diamniadio
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- synthése -->
+    <section class="bloc">
+      <h3>Pourquoi ces infrastructures sont importantes ?</h3>
+      <p>
+        Les infrastructures majeures implantées à Diamniadio jouent un rôle central dans le développement 
+        et la structuration de la ville nouvelle. Elles soutiennent la croissance urbaine et économique 
+        en facilitant l’implantation d’activités, d’institutions et de populations, 
+        tout en améliorant l’accessibilité du territoire à l’échelle locale, nationale et internationale. <br>
+
+        Ces équipements renforcent également l’attractivité de Diamniadio en offrant des services modernes 
+        dans les domaines des transports, de l’éducation, du sport, du tourisme et de la logistique. 
+        Enfin, ils accompagnent la transformation durable du territoire en favorisant une urbanisation planifiée, 
+        une meilleure qualité de vie pour les habitants et une intégration progressive de Diamniadio 
+        dans les dynamiques métropolitaines de la région de Dakar.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-text">
+      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
+      </p>
+
+      <!-- Navigation du pied de page -->
+    <nav class="footer-nav">
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+        
+    <!-- Ligne basse -->
+     <div class="footer-bottom">
+        <p class="footer-copyright">
+        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
+        </p>
+        <div class="logo-bottom">
+          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
+        </div> 
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+al" id="logo2">
+
+<!DOCTYPE html>
+<html lang="fr"> 
+
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Responsive : adapte l’affichage aux mobiles -->
+
+  <title> Localisation, Itinéraire & contact </title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+  <header>
+
+    
+    <div class="logo-top">
+      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
+      <!-- Image : src = chemin, alt = description, id = style CSS -->
+    </div>
+
+    <!-- Titre principal de la page -->
+    <h1>Localisation, Itinéraire et contact</h1>
+
+    <!-- Menu de navigation (simple, sans sous-menus) -->
+    <nav>
+      <a href="accueil.html">Accueil</a> 
+      <a href="histoire.html">Histoire & projet urbain</a> 
+      <a href="infrastructures.html">Infrastructures</a> 
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+
+  </header>
+
+  <!--  CONTENU PRINCIPAL  -->
+  <main>
+
+<!-- SECTION 1 : localisation de la ville de Diamaniadio -->
+    <section class="bloc">
+      <h2>Situation géographique de la ville nouvelle de Diamniadio</h2>
+
+      <p>
+        Diamniadio est située à environ 30 kilomètres à l’est de Dakar, au cœur d’un espace stratégique de la région dakaroise. 
+        Sa localisation, à proximité immédiate de l’autoroute A1, du Train Express Régional (TER) 
+        et de l’Aéroport International Blaise Diagne (AIBD), lui confère une excellente accessibilité 
+        et une forte connectivité aux principaux pôles économiques du pays.
+        Cette position géographique privilégiée favorise son intégration progressive dans les dynamiques métropolitaines, 
+        renforce son attractivité pour les investissements publics et privés, 
+        et explique son rôle croissant dans l’organisation urbaine, économique et logistique de la région de Dakar.
+      </p>
+
+          <!-- Bloc image + légende -->
+      <figure class="cartes">
+        <!-- Conteneur des deux cartes -->
+        <div class="cartes-container">
+
+          <img class="carte-img" 
+              src="image/Carte-Diamniadio.jpg"
+              alt="Carte de localisation de Diamniadio sur la carte du Sénégal">
+
+          <img class="carte-img"
+              src="image/Carte-Diamniadio(1).jpg"
+              alt="Carte de localisation de Diamniadio dans la région de Dakar">
+
+        </div>
+
+        <!-- Légende commune aux deux cartes -->
+        <figcaption>
+          Cartes de localisation de la ville de Diamniadio à l’échelle nationale et régionale.  
+          Source : OpenStreetMap.
+        </figcaption>
+      </figure>
+    </section>
+
+        <!-- SECTION 2 : Accès et itinéraires vers Diamniadio (depuis Dakar) -->
+    <section class="bloc">
+      <h2>Comment se rendre à Diamniadio depuis Dakar ?</h2>
+
+      <p>
+        Depuis Dakar, plusieurs moyens permettent de rejoindre Diamniadio selon le budget,
+        le temps disponible et le niveau de confort souhaité.
+      </p>
+
+      <!-- 1) Voiture -->
+      <div class="itineraire-row">
+        <div class="itineraire-texte">
+          <h3>🚗 Par la route (voiture / taxi / VTC)</h3>
+          <p>
+            L’itinéraire le plus rapide consiste à emprunter l’autoroute A1 en direction de
+            Diamniadio. Le trajet dure généralement <strong>30 à 45 minutes</strong> selon la circulation.
+          </p>
+          <ul>
+            <li><strong>Point de départ :</strong> Dakar</li>
+            <li><strong>Trajet :</strong> Autoroute A1</li>
+            <li><strong>Arrivée :</strong> Diamniadio</li>
+          </ul>
+        </div>
+
+        <div class="itineraire-image">
+          <img src="image/autoroute A1.jpg" alt="Autoroute A1 reliant Dakar à Diamniadio">
+        </div>
+      </div>
+
+      <!-- 2) TER -->
+      <div class="itineraire-row">
+        <div class="itineraire-texte">
+          <h3>🚆 Par le Train Express Régional (TER)</h3>
+          <p>
+            Le TER relie Dakar à Diamniadio avec plusieurs arrêts. C’est un moyen de transport
+            pratique, régulier et souvent plus fiable aux heures de pointe.
+            Le trajet dure environ <strong>45 minutes</strong>.
+          </p>
+          <ul>
+            <li><strong>Avantage :</strong> temps plus stable</li>
+            <li><strong>Idéal pour :</strong> déplacements quotidiens</li>
+          </ul>
+        </div>
+
+        <div class="itineraire-image">
+          <img src="image/TER.jpg" alt="Train Express Régional (TER) vers Diamniadio">
+        </div>
+      </div>
+
+      <!-- 3) Bus / transports en commun -->
+      <div class="itineraire-row">
+        <div class="itineraire-texte">
+          <h3>🚌 Par les transports en commun (bus / cars rapides / taxis collectifs)</h3>
+          <p>
+            Des bus et véhicules de transport collectif assurent la liaison entre Dakar et Diamniadio.
+            Cette option est souvent plus économique, mais peut être plus longue à cause des arrêts
+            et de la circulation.
+          </p>
+          <ul>
+            <li><strong>Avantage :</strong> coût réduit</li>
+            <li><strong>Inconvénient :</strong> durée variable</li>
+          </ul>
+        </div>
+
+        <div class="itineraire-image">
+          <img src="image/car.jpg" alt="Transport en commun depuis Dakar vers Diamniadio">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION 3 : CONTACT -->
+      
+    <section class="bloc">
+
+      <!-- Titre de la section -->
+      <h2>Contact</h2>
+     
+      <!-- Formulaire : structure simple -->
+      <form class="contact-form">
+
+        <!-- Champ Nom -->
+        <label>Nom</label>
+        <input type="text" value="" required>
+
+        <!-- Champ Prénom -->
+        <label>Prénom</label>
+        <input type="text" value="" required>
+
+        <!-- Champ Email -->
+        <label>Email</label>
+        <input type="email" value="" required>
+
+        <!-- Champ Message -->
+        <label>Message</label>
+        <textarea rows="5" required>Votre message</textarea>
+
+        <!-- Acceptation des conditions (exercice pédagogique) -->
+        <!-- Label englobant la case à cocher et le texte -->
+        <label class="conditions-label">
+
+          <!-- Case à cocher -->
+          <input type="checkbox" name="conditions">
+
+          <!-- Conteneur du texte -->
+            <!-- Lien des conditions d’utilisation -->
+            <!-- La classe conditions-link sert à appliquer le style CSS -->
+            <a href="#" class="conditions-link">
+              J’accepte les conditions d’utilisation des données
+            </a>
+
+            <!-- Astérisque rouge indiquant un champ obligatoire -->
+            <span class="star">*</span>
+        </label>
+
+        <!-- Bouton d’envoi -->
+        <input type="submit" value="Envoyer">
+
+      </form>
+    </section>
+
+
+  </main>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-text">
+      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
+      </p>
+
+      <!-- Navigation du pied de page -->
+    <nav class="footer-nav">
+      <a href="accueil.html">Accueil</a>
+      <a href="histoire.html">Histoire & projet urbain</a>
+      <a href="infrastructures.html">Infrastructures</a>
+      <a href="contact.html">Localisation & Contact</a>
+    </nav>
+        
+    <!-- Ligne basse -->
+     <div class="footer-bottom">
+        <p class="footer-copyright">
+        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
+        </p>
+        <div class="logo-bottom">
+          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
+        </div> 
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+        </div> 
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+/* Style général de la page */
 body {
   font-family: Arial, sans-serif; /* Police simple et lisible */
   margin: 0;                      /* Supprime les marges par défaut sur toute la page */
@@ -573,950 +1525,11 @@ footer {
 
 }
 
-<!DOCTYPE html>
-<html lang="fr"> 
 
-<head>
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Responsive : adapte l’affichage aux mobiles -->
 
-  <title> Localisation, Itinéraire & contact </title>
-  
-  <link rel="stylesheet" href="style.css">
-</head>
 
-<body> 
 
-  <header>
 
-    
-    <div class="logo-top">
-      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
-      <!-- Image : src = chemin, alt = description, id = style CSS -->
-    </div>
 
-    <!-- Titre principal de la page -->
-    <h1>Localisation, Itinéraire et contact</h1>
 
-    <!-- Menu de navigation (simple, sans sous-menus) -->
-    <nav>
-      <a href="accueil.html">Accueil</a> 
-      <a href="histoire.html">Histoire & projet urbain</a> 
-      <a href="infrastructures.html">Infrastructures</a> 
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
 
-  </header>
-
-  <!--  CONTENU PRINCIPAL  -->
-  <main>
-
-<!-- SECTION 1 : localisation de la ville de Diamaniadio -->
-    <section class="bloc">
-      <h2>Situation géographique de la ville nouvelle de Diamniadio</h2>
-
-      <p>
-        Diamniadio est située à environ 30 kilomètres à l’est de Dakar, au cœur d’un espace stratégique de la région dakaroise. 
-        Sa localisation, à proximité immédiate de l’autoroute A1, du Train Express Régional (TER) 
-        et de l’Aéroport International Blaise Diagne (AIBD), lui confère une excellente accessibilité 
-        et une forte connectivité aux principaux pôles économiques du pays.
-        Cette position géographique privilégiée favorise son intégration progressive dans les dynamiques métropolitaines, 
-        renforce son attractivité pour les investissements publics et privés, 
-        et explique son rôle croissant dans l’organisation urbaine, économique et logistique de la région de Dakar.
-      </p>
-
-          <!-- Bloc image + légende -->
-      <figure class="cartes">
-        <!-- Conteneur des deux cartes -->
-        <div class="cartes-container">
-
-          <img class="carte-img" 
-              src="image/Carte-Diamniadio.jpg"
-              alt="Carte de localisation de Diamniadio sur la carte du Sénégal">
-
-          <img class="carte-img"
-              src="image/Carte-Diamniadio(1).jpg"
-              alt="Carte de localisation de Diamniadio dans la région de Dakar">
-
-        </div>
-
-        <!-- Légende commune aux deux cartes -->
-        <figcaption>
-          Cartes de localisation de la ville de Diamniadio à l’échelle nationale et régionale.  
-          Source : OpenStreetMap.
-        </figcaption>
-      </figure>
-    </section>
-
-        <!-- SECTION 2 : Accès et itinéraires vers Diamniadio (depuis Dakar) -->
-    <section class="bloc">
-      <h2>Comment se rendre à Diamniadio depuis Dakar ?</h2>
-
-      <p>
-        Depuis Dakar, plusieurs moyens permettent de rejoindre Diamniadio selon le budget,
-        le temps disponible et le niveau de confort souhaité.
-      </p>
-
-      <!-- 1) Voiture -->
-      <div class="itineraire-row">
-        <div class="itineraire-texte">
-          <h3>🚗 Par la route (voiture / taxi / VTC)</h3>
-          <p>
-            L’itinéraire le plus rapide consiste à emprunter l’autoroute A1 en direction de
-            Diamniadio. Le trajet dure généralement <strong>30 à 45 minutes</strong> selon la circulation.
-          </p>
-          <ul>
-            <li><strong>Point de départ :</strong> Dakar</li>
-            <li><strong>Trajet :</strong> Autoroute A1</li>
-            <li><strong>Arrivée :</strong> Diamniadio</li>
-          </ul>
-        </div>
-
-        <div class="itineraire-image">
-          <img src="image/autoroute A1.jpg" alt="Autoroute A1 reliant Dakar à Diamniadio">
-        </div>
-      </div>
-
-      <!-- 2) TER -->
-      <div class="itineraire-row">
-        <div class="itineraire-texte">
-          <h3>🚆 Par le Train Express Régional (TER)</h3>
-          <p>
-            Le TER relie Dakar à Diamniadio avec plusieurs arrêts. C’est un moyen de transport
-            pratique, régulier et souvent plus fiable aux heures de pointe.
-            Le trajet dure environ <strong>45 minutes</strong>.
-          </p>
-          <ul>
-            <li><strong>Avantage :</strong> temps plus stable</li>
-            <li><strong>Idéal pour :</strong> déplacements quotidiens</li>
-          </ul>
-        </div>
-
-        <div class="itineraire-image">
-          <img src="image/TER.jpg" alt="Train Express Régional (TER) vers Diamniadio">
-        </div>
-      </div>
-
-      <!-- 3) Bus / transports en commun -->
-      <div class="itineraire-row">
-        <div class="itineraire-texte">
-          <h3>🚌 Par les transports en commun (bus / cars rapides / taxis collectifs)</h3>
-          <p>
-            Des bus et véhicules de transport collectif assurent la liaison entre Dakar et Diamniadio.
-            Cette option est souvent plus économique, mais peut être plus longue à cause des arrêts
-            et de la circulation.
-          </p>
-          <ul>
-            <li><strong>Avantage :</strong> coût réduit</li>
-            <li><strong>Inconvénient :</strong> durée variable</li>
-          </ul>
-        </div>
-
-        <div class="itineraire-image">
-          <img src="image/car.jpg" alt="Transport en commun depuis Dakar vers Diamniadio">
-        </div>
-      </div>
-    </section>
-
-
-    <!-- SECTION 3 : CONTACT -->
-      
-    <section class="bloc">
-
-      <!-- Titre de la section -->
-      <h2>Contact</h2>
-     
-      <!-- Formulaire : structure simple -->
-      <form class="contact-form">
-
-        <!-- Champ Nom -->
-        <label>Nom</label>
-        <input type="text" value="" required>
-
-        <!-- Champ Prénom -->
-        <label>Prénom</label>
-        <input type="text" value="" required>
-
-        <!-- Champ Email -->
-        <label>Email</label>
-        <input type="email" value="" required>
-
-        <!-- Champ Message -->
-        <label>Message</label>
-        <textarea rows="5" required>Votre message</textarea>
-
-        <!-- Acceptation des conditions (exercice pédagogique) -->
-        <!-- Label englobant la case à cocher et le texte -->
-        <label class="conditions-label">
-
-          <!-- Case à cocher -->
-          <input type="checkbox" name="conditions">
-
-          <!-- Conteneur du texte -->
-            <!-- Lien des conditions d’utilisation -->
-            <!-- La classe conditions-link sert à appliquer le style CSS -->
-            <a href="#" class="conditions-link">
-              J’accepte les conditions d’utilisation des données
-            </a>
-
-            <!-- Astérisque rouge indiquant un champ obligatoire -->
-            <span class="star">*</span>
-        </label>
-
-        <!-- Bouton d’envoi -->
-        <input type="submit" value="Envoyer">
-
-      </form>
-    </section>
-
-
-  </main>
-
-  <!-- PIED DE PAGE -->
-  <footer>
-    <div class="footer-content">
-      <p class="footer-text">
-      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
-      </p>
-
-      <!-- Navigation du pied de page -->
-    <nav class="footer-nav">
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-        
-    <!-- Ligne basse -->
-     <div class="footer-bottom">
-        <p class="footer-copyright">
-        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
-        </p>
-        <div class="logo-bottom">
-          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
-        </div> 
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-
-  <meta charset="UTF-8">
-   <!-- Rend le site adapté aux écrans mobiles (responsive) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title> Diamniadio : Histoire & projet urbain </title>
-  
-<link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-  <!-- EN-TÊTE DU SITE -->
-  <header>
-
-     <!-- Conteneur du logo du haut -->
-    <div class="logo-top">
-      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
-    </div>
-          
-    <!-- Titre principal du site -->
-    <h1>Evolution et transformation de la ville de Diamniadio : <br> 
-      Histoire et projet urbain</h1>
-    
-    <nav>
-      <!-- Zone de navigation du site -->
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-      
-    </nav>
-  </header>
-
-  <!-- CONTENU PRINCIPAL -->
-  <main>
-
-    <!--  SECTION : DIAMNIADIO AVANT  -->
-    
-    <section class="bloc">
-      <h2>Diamniadio avant</h2>
-
-      <!-- Conteneur flex -->
-      <div class="bloc-contenu">
-
-        <!-- Texte -->
-        <div class="bloc-texte">
-          <p>
-            Avant son développement, Diamniadio était principalement une zone rurale, 
-            faiblement peuplée et dominée par des activités agricoles, avec peu d’infrastructures urbaines. 
-            Sa transformation en pôle économique et urbain résulte d’investissements publics et de projets d’aménagement 
-            visant à stimuler la croissance économique et à créer de nouvelles opportunités. 
-            L’aménagement de la ville a notamment permis la délocalisation de certaines institutions de l’État 
-            ainsi que la construction d’infrastructures sportives, éducatives et de conférences internationales.
-      </p>
-        </div>
-
-        <!-- Image + légende -->
-        <figure class="bloc-image">
-          <img src="image/image1.jpg" alt="Paysage rural de Diamniadio avant son développement">
-          <figcaption>
-            Vue du ciel de la zone rurale de Diamniadio 
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- SECTION : DIAMNIADIO AUJOURD'HUI -->
-    <section class="bloc">
-      <h2>Diamniadio aujourd’hui</h2>
-
-      <!-- Conteneur flex -->
-      <div class="bloc-contenu">
-
-        <!-- Texte à gauche -->
-        <div class="bloc-texte">
-          <p>
-            À l’heure actuelle, Diamniadio s’affirme comme un pôle économique et urbain majeur au Sénégal, 
-            caractérisé par une dynamique de développement rapide. 
-            De nombreux projets d’aménagement, de construction et d’infrastructures sont en cours, 
-            renforçant l’attractivité de la ville à la fois comme centre d’affaires et espace résidentiel.
-          </p>
-
-          <p>
-            Lancé à partir de 2014, le projet de développement de Diamniadio repose sur des partenariats 
-            entre l’État sénégalais et plusieurs promoteurs nationaux et internationaux, notamment 
-            GETRAN, SENEGINDIA, Teyliom, Alliance, Médina Invest et Doozy Gulf Group.
-          </p>
-
-          <p>
-            Ces collaborations ont permis la réalisation d’infrastructures structurantes telles que 
-            la Maison des Nations Unies, la zone industrielle, l’Université Amadou Mahtar Mbow, 
-            le Train Express Régional (TER), ainsi que des équipements hôteliers et immobiliers.
-          </p>
-        </div>
-
-        <!-- Image + légende à droite -->
-        <figure class="bloc-image">
-          <img src="image/image2.jpg" alt="Maquette du projet Diamniadio Lake City">
-
-          <figcaption>
-            Maquette du projet de développement urbain Diamniadio Lake City 
-          </figcaption>
-
-          <p>
-            Diamniadio Lake City est un projet urbain futuriste situé à environ 30 km de Dakar, 
-            conçu dans le cadre du Plan Sénégal Émergent. Il vise à accueillir jusqu’à 350 000 habitants 
-            et à devenir une référence du développement urbain en Afrique de l’Ouest.
-          </p>
-        </figure>
-
-      </div>
-    </section>
-
-    
-
-    <!--  SECTION : OBJECTIFS ET INNOVATIONS DU PROJET URBAIN -->
-    <section class="bloc">
-     
-      <h2>Objectifs et innovations du projet urbain de Diamniadio</h2>
-      <!--Permet d'entouer le tableau-->
-      <div class="table-wrapper"> 
-      <!-- table : crée un tableau (lignes/colonnes) -->
-      <table class="table-obj">
-
-      <!-- première ligne : titres des colonnes -->
-        <!-- tr : une ligne du tableau   th : cellule d'en-tête (titre de colonne) -->
-      <tr>   
-        <th>Objectifs</th>
-        <th>Description</th>
-        <th>Innovations associées</th>
-      </tr>
-
-      <!-- ligne 1  du tableau-->
-      <!-- td : cellule "normale" (contenu) -->
-      <tr>
-        <td><strong>Désengorger la ville de Dakar</strong></td>
-        <td>
-          Réduire la pression démographique et fonctionnelle sur la capitale
-          en transférant certaines activités et populations vers Diamniadio.
-        </td>
-        <td>
-          Développement du Train Express Régional (TER) et des infrastructures
-          de transport modernes.
-        </td>
-      </tr>
-
-      <!-- ligne 2 -->
-      <tr>
-        <td><strong>Créer une ville planifiée et moderne</strong></td>
-        <td>
-          Concevoir une ville structurée reposant sur une planification
-          urbaine anticipée des équipements, logements et services.
-        </td>
-        <td>
-          Urbanisme planifié, zonage fonctionnel et infrastructures connectées.
-        </td>
-      </tr>
-
-      <!-- ligne 3 -->
-      <tr>
-        <td><strong>Renforcer l’attractivité économique</strong></td>
-        <td>
-          Attirer entreprises et institutions afin de dynamiser l’économie
-          locale et nationale.
-        </td>
-        <td>
-          Création de pôles d’activités, zones économiques et quartiers d’affaires.
-        </td>
-      </tr>
-
-      <!-- ligne 4 -->
-      <tr>
-        <td><strong>Développer des projets innovants</strong></td>
-        <td>
-          Intégrer l’innovation, les nouvelles technologies et les principes
-          du développement durable dans le projet urbain.
-        </td>
-        <td>
-          Concepts de smart city, solutions numériques et critères environnementaux.
-        </td>
-      </tr>
-
-    </table>
-    </div>
-    </section>
-
-    <!-- SECTION : ENJEUX ET DÉFIS -->
-    <section class="bloc">
-
-      <h2>Enjeux et défis</h2>
-
-      <p>
-        Le développement de Diamniadio s’inscrit dans une dynamique de planification urbaine visant à accompagner la croissance de la région dakaroise. 
-        Cette évolution rapide pose toutefois des enjeux importants en matière de mobilité, 
-        d’accès aux services urbains essentiels (eau, électricité, assainissement), de logements et d’équipements publics. 
-        La maîtrise de l’urbanisation et la prise en compte des enjeux environnementaux constituent également des défis majeurs 
-        afin d’assurer un développement équilibré et durable. La réussite du projet repose ainsi sur une gouvernance efficace et une planification cohérente, 
-        capables d’anticiper les besoins futurs et d’améliorer durablement la qualité de vie des habitants.
-      </p>
-    </section>
-
-  </main>
-
- <!-- PIED DE PAGE -->
-  <footer>
-    <div class="footer-content">
-      <p class="footer-text">
-      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
-      </p>
-
-      <!-- Navigation du pied de page -->
-    <nav class="footer-nav">
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-        
-    <!-- Ligne basse -->
-     <div class="footer-bottom">
-        <p class="footer-copyright">
-        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
-        </p>
-        <div class="logo-bottom">
-          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
-        </div> 
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <!-- Responsive : adapté aux mobiles -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Titre de l’onglet du navigateur -->
-  <title>Infrastructures majeures de Diamniadio</title>
-  
-  <!-- Lien vers le fichier CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-  <header>
-
-    <!-- Logo du haut -->
-    <div class="logo-top">
-      <img src="image/logo.png" alt="Logo Paris 8" id="logo1">
-    </div>
-
-    <!-- Titre principal -->
-    <h1>Infrastructures majeures et équipements structurants de Diamniadio</h1>
-
-    <!-- Menu de navigation -->
-    <nav>
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-  </header>
-
-  <!-- CONTENU PRINCIPAL -->
-  <main>
-
-    <!-- Titre + introduction -->
-    <section class="page-title">
-      <h2>Infrastructures et lieux clés</h2>
-      <p>
-        Diamniadio accueille des équipements structurants qui renforcent son rôle de pôle urbain,
-        économique et institutionnel. Voici quelques infrastructures majeures.
-      </p>
-
-      <!-- Liens rapides -->
-      <p class="quick-links">
-        <a href="#onu">Maison de l’ONU</a> |
-        <a href="#ter">TER</a> |
-        <a href="#stade">Stade Abdoulaye Wade</a> |
-        <a href="#arena">Dakar Arena</a> |
-        <a href="#uam">Université UAM</a> |
-        <a href="#zone">Zone industrielle</a> |
-        <a href="#aibd">Aéroport AIBD</a>
-      </p>
-    </section>
-
-    <!-- INFRA 1 -->
-    <section class="bloc" id="onu">
-      <h3>La maison des Nations Unies</h3>
-      
-      <!-- .bloc-content = conteneur Flex (organisation en 2 colonnes) -->
-      <div class="bloc-content">
-
-    <!-- .bloc-text = colonne du texte -->
-     <div class="bloc-text">
-        <p>
-        La maison des nations unies est un projet situé dans la ville de Diamniadio, au Sénégal. 
-        Il s’agit d’un complexe qui abrite les différentes agences des Nations Unies ainsi que d’autres organisations internationales. 
-        Ce projet vise à renforcer la présence et l’efficacité des Nations Unies dans la région, 
-        en fournissant un espace commun pour la coordination et la collaboration entre les différentes agences et partenaires. 
-        Cette maison des Nations Unies est la vision commune de coopération entre le Sénégal 
-        et les Nations Unies pour promouvoir un avenir de paix,
-        de dignité et de prospérité pour le peuple sénégalais, la région et pour toute l’Afrique.
-        Cet édifice est la contribution à la stratégie de l’organisation visant à créer une nouvelle synergie souhaitée 
-        entre les différentes entités chargées des activités opérationnelles du développement, 
-        de façon à améliorer leur collaboration et leur efficacité.
-        </p>
-      </div>
-      
-        <!-- Image illustrative-->
-      <!-- Groupe image + légende -->
-        <figure class="bloc-image">
-          <img class="img-page" src="image/image3.jpg" alt="La maison de l'ONU à Diamniadio">
-
-          <!-- Source de l'image -->
-          <figcaption>
-          Vue aérienne de la Maison des Nations Unies à Diamniadio         
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- INFRA 2 -->
-    <section class="bloc" id="ter">
-      <h3>Le train Express Régional (TER)</h3>
-      <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-        Le Train Express Régional (TER) Dakar–Diamniadio est une ligne ferroviaire électrique mise en service le 27 décembre 2021, 
-        reliant la capitale à Diamniadio, avec une extension prévue jusqu’à l’aéroport international Blaise Diagne (AIBD). 
-        Long de 36 km dans sa première phase et desservant 13 gares, il vise à améliorer la mobilité, réduire les embouteillages à Dakar 
-        et renforcer la connexion avec les villes nouvelles. Entièrement électrifié et à écartement standard, 
-        le TER constitue une infrastructure majeure et innovante dans le réseau de transport sénégalais, 
-        avec à terme un trajet Dakar–AIBD de 55 km réalisé en environ 50 minutes. 
-        </p>
-      </div>
-
-      <figure class="bloc-image">
-        <img class="img-page" src="image/image4.jpg" alt="Le train Expresse Régional">
-
-        <!-- Source de l'image -->
-        <figcaption>
-        Le Train Express Régional Dakar–Diamniadio, un levier de la mobilité urbaine         
-        </figcaption>
-      </figure>
-      </div>
-    </section>
-
-    <!-- INFRA 3 -->
-    <section class="bloc" id="stade">
-      <h3>Stade olympique de Diamniadio</h3>
-      <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-          Le stade Olympique de Diamniadio est un stade à l’anglaise sans piste d’athlétisme, 
-          avec une capacité de 50 000 places construite par la société turque Summa. 
-          Le projet a coûté environ 155 milliards de francs CFA 
-          et a été construit pour les besoins des Jeux Olympiques de jeunesse (JOJ) que Dakar va abriter en 2026 
-          mais également pour tenir des matchs de football de l’équipe nationale. 
-          Il porte le nom de l’ancien Président de la République Abdoulaye Wade. 
-          Deux ans après le début des travaux, le nouveau stade de Diamniadio a été réceptionné 
-          et inauguré par le chef de l’Etat Macky Sall le 22 février 2022.
-          Il est considéré comme l’un des stades les plus modernes du continent africain. 
-        </p>
-      </div>
-
-       <figure class="bloc-image">
-        <img class="img-page" src="image/image5.jpg" alt="Stade Abdoulaye Wade à Diamniadio">
-
-        <!-- Source de l'image -->
-        <figcaption>
-          Stade Abdoulaye Wade : infrastructure sportive emblématique du Sénégal      
-        </figcaption>
-      </figure>
-      </div>
-    </section>
-
-    <!-- INFRA 4 -->
-    <section class="bloc" id="arena">
-      <h3>Dakar Arena</h3>
-
-       <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-          A côté du stade olympique de Diamniadio, se situe le Dakar Arena l’une des plus grandes arènes de basket en Afrique. 
-          Dakar Arena a l’ambitieux projet de contribuer au rayonnement du pays à travers les valeurs sportives et culturelles, 
-          accueillant entre autres sports, le basketball, le volleyball, les arts martiaux et le handball. 
-          Répondant aux normes internationales, il bénéficie d’équipements modernes adaptés aux activités ciblées. 
-          Une salle moderne de 15 000 places dédiée au spectacle, et est aussi destinée à être un espace de vie 
-          offrant à ses visiteurs des commodités pour des sorties en famille ou entre amis.
-        </p>
-      </div>
-        
-       <!-- image -->
-        <figure class="bloc-image">
-          <img class="img-page" src="image/image6.jpg" alt="Dakar Arena à Diamniadio">
-
-          <!-- Source de l'image -->
-          <figcaption>
-          La Dakar Arena, infrastructure sportive et culturelle majeure à Diamniadio        
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- INFRA 5 -->
-    <section class="bloc" id="uam">
-      <h3>Université Amadou Mahtar Mbow</h3>
-        
-      <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-          Inaugurée le 1er décembre 2022 après le lancement des travaux en 2015, 
-          l’Université Amadou Mahtar Mbow (UAM) est l’une des universités les plus modernes du Sénégal et d’Afrique. 
-          Baptisée en hommage à Amadou Mahtar Mbow, ancien directeur général de l’UNESCO, 
-          elle dispose d’infrastructures de haut niveau comprenant 19 laboratoires, 
-          de nombreux amphithéâtres de 200 à 1 000 places, un campus social de grande capacité avec environ 5 000 lits,
-          ainsi qu’un restaurant universitaire pouvant accueillir 1 000 personnes. Conçue pour accueillir jusqu’à 30 000 étudiants,
-          l’université met l’accent sur les formations professionnelles et innovantes 
-          afin de répondre aux besoins du développement socio-économique du Sénégal, 
-          tout en s’inscrivant dans une dynamique d’ouverture africaine et internationale 
-          et en contribuant aux objectifs du Plan Sénégal Émergent.
-        </p>
-      </div>
-
-          <figure class="bloc-image">
-
-            <img class="img-page" src="image/image7.jpg" alt="Université Amadou Mahtar Mbow à Diamniadio">
-
-            <!-- Source de l'image -->
-            <figcaption>
-            L’Université Amadou Mahtar Mbow, pôle d’enseignement supérieur moderne à Diamniadio        
-            </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- INFRA 6 -->
-    <section class="bloc" id="SD City">
-      <h3>Le Pojet SENEGINDIA City de Diamniadio </h3>
-      <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-        SENEGINDIA est une entreprise spécialisée dans la construction immobilière moderne et de standing, 
-        ainsi que dans l’agriculture innovante intégrant des technologies de pointe. 
-        Elle intervient à Dakar et dans sa périphérie, notamment à Diamniadio, 
-        à travers plusieurs projets immobiliers majeurs tels que Aquanique, SV City et SN City.
-        Parmi ces projets, SD City constitue un programme d’envergure implanté à Dakar et Diamniadio, 
-        prévoyant la réalisation de 2 500 appartements et villas sur une superficie de 58 hectares. 
-        Ce projet intègre des équipements sanitaires, socioculturels et sportifs, un hôtel cinq étoiles, 
-        des centres commerciaux, des infrastructures de mobilité ainsi que plus de 10 000 m² d’espaces verts.
-        Avec une forte présence d’espaces verts et une conception urbaine moderne, 
-        SD City s’inscrit comme un projet structurant contribuant à l’attractivité et à la qualité de vie du pôle urbain de Diamniadio.
-        </p>
-      </div>
-      
-        <figure class="bloc-image">
-          <img class="img-page" src="image/image8.jpg" alt="Le projet SENEGINDIA City à Diamniadio">
-
-          <!-- Source de l'image -->
-          <figcaption>
-          SD City : un cadre de vie moderne et durable au cœur de Diamniadio         
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-     <!-- INFRA 7 -->
-    <section class="bloc" id="Radison">
-      <h3>L'hotel Radison Blu </h3>
-        <!-- conteneur flex -->
-        <div class="bloc-content">
-
-        <!-- texte -->
-        <div class="bloc-text">
-          <p>
-          Radisson est un hôtel 5 étoiles qui occupe une place importante dans le processus d’urbanisation de la nouvelle ville. 
-          En raison de son impact sur le développement économique, sociale et physique,
-          elle fait partie des infrastructures qui donne une image rayonnante à la commune 
-          notamment en raison de la création d’emplois, du stimulus économique, du tourisme et de l’attractivité, 
-          le développement social ainsi que de l’aménagement du territoire à travers la planification urbaine de la ville.
-          Le Radisson hôtel offre un lieu central idéal pour les voyageurs d’affaires 
-          et de loisirs cherchant à bénéficier d’un séjour confortable à l’aéroport internationale Blaise Diagne (AIBD).  
-          </p>
-        </div>
-        
-          <figure class="bloc-image">
-            <img class="img-page" src="image/image9.jpg" alt="hotel Radison Blue à Diamiadio">
-
-            <!-- Source de l'image -->
-            <figcaption>
-              Le Radisson Blu, un hôtel haut de gamme au cœur de Diamniadio        
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-    <!-- INFRA 8 : NOUVELLE SECTION -->
-    <section class="bloc" id="aibd">
-      <h3>Aéroport International Blaise Diagne (AIBD)</h3>
-      <!-- conteneur flex -->
-      <div class="bloc-content">
-
-      <!-- texte -->
-      <div class="bloc-text">
-        <p>
-        L’Aéroport International Blaise Diagne (AIBD), situé à proximité immédiate de Diamniadio, 
-        représente une infrastructure stratégique majeure pour le Sénégal. 
-        Mis en service afin de remplacer l’ancien aéroport de Dakar-Yoff, 
-        il améliore significativement l’accessibilité internationale du pays 
-        et renforce sa connectivité avec l’Afrique et le reste du monde.
-        L’AIBD joue également un rôle moteur dans le développement économique national 
-        en facilitant les échanges commerciaux, le tourisme et l’implantation d’activités logistiques. 
-        Grâce à sa localisation stratégique et à sa connexion avec le Train Express Régional (TER) 
-        et les principaux axes routiers, il contribue à positionner Diamniadio comme un pôle logistique, 
-        de transport et de services à l’échelle régionale et internationale.
-        </p>
-      </div>
-        
-        <figure class="bloc-image">
-          <img class="img-page" src="image/image10.jpg" alt="Aéroport International Blaise Diagne">
-
-          <!-- Source de l'image -->
-          <figcaption>
-          L’Aéroport International Blaise Diagne : une infrastructure stratégique pour Diamniadio
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- synthése -->
-    <section class="bloc">
-      <h3>Pourquoi ces infrastructures sont importantes ?</h3>
-      <p>
-        Les infrastructures majeures implantées à Diamniadio jouent un rôle central dans le développement 
-        et la structuration de la ville nouvelle. Elles soutiennent la croissance urbaine et économique 
-        en facilitant l’implantation d’activités, d’institutions et de populations, 
-        tout en améliorant l’accessibilité du territoire à l’échelle locale, nationale et internationale. <br>
-
-        Ces équipements renforcent également l’attractivité de Diamniadio en offrant des services modernes 
-        dans les domaines des transports, de l’éducation, du sport, du tourisme et de la logistique. 
-        Enfin, ils accompagnent la transformation durable du territoire en favorisant une urbanisation planifiée, 
-        une meilleure qualité de vie pour les habitants et une intégration progressive de Diamniadio 
-        dans les dynamiques métropolitaines de la région de Dakar.
-      </p>
-    </section>
-
-  </main>
-
-  <!-- PIED DE PAGE -->
-  <footer>
-    <div class="footer-content">
-      <p class="footer-text">
-      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
-      </p>
-
-      <!-- Navigation du pied de page -->
-    <nav class="footer-nav">
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-        
-    <!-- Ligne basse -->
-     <div class="footer-bottom">
-        <p class="footer-copyright">
-        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
-        </p>
-        <div class="logo-bottom">
-          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
-        </div> 
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
-
-
-<body>
-
-  <!-- EN-TÊTE DU SITE -->
-  <header>
-
-    <!-- Conteneur du logo du haut -->
-    <div class="logo-top">
-      <img src="image/logo.png" alt="Logo de Paris 8" id="logo1">
-    </div>
-          
-    <!-- Titre principal -->
-    <h1>Découvrir Diamniadio : L’ambitieux pari de la nouvelle ville du Sénégal</h1>
-
-    <!-- MENU DE NAVIGATION SIMPLE -->
-    <nav>
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-
-  </header>
-
-  <!-- CONTENU PRINCIPAL -->
-  <main>
-
-      <!-- Section d’introduction -->
-    <section class="intro">
-
-      <!-- Titre général de la section -->
-      <h2 class="intro-title">
-        Qu’est-ce que Diamniadio et pourquoi cette ville a-t-elle été créée ?
-      </h2>
-
-      <!-- Conteneur texte + image (FLEX) -->
-      <div class="intro-content">
-
-        <!-- Colonne texte -->
-        <div class="intro-text">
-          <p>
-            Diamniadio est une ville nouvelle située à environ 30 km de Dakar, 
-            conçue par l’État du Sénégal pour désengorger la capitale. 
-            Développée sur près de 2000 hectares, elle a vocation à accueillir jusqu’à 350 000 habitants. 
-            En pleine expansion, la ville s’impose progressivement comme un pôle économique et urbain majeur, 
-            soutenu par des infrastructures modernes, des équipements stratégiques et des projets innovants comme la Cité du Savoir, 
-            orientée vers les technologies et le développement urbain planifié.
-          </p>
-        </div>
-
-        <!-- Colonne image -->
-        <figure class="bloc-image">
-        <div class="intro-image">
-          <img src="image/image.jpg" alt="projet de développement urbain de Diamniadio ">
-        </div>
-
-          <figcaption>
-            Vue aérienne du projet de développement urbain de la nouvelle ville de Diamniadio.
-          </figcaption>
-          </figure>
-
-      </div> 
-    </section>
-
-    <!-- Objectif du site -->
-    <section class="objectif">
-    <h3>À propos du site</h3>
-
-      <ul class="objectif-schema">
-        <li>
-          <strong>Observer</strong> la naissance et l’évolution de la ville de Diamniadio.
-        </li>
-        <li>
-          <strong>Comprendre</strong> le rôle des infrastructures dans son développement.
-        </li>
-        <li>
-          <strong>Analyser</strong> les enjeux urbains, économiques et environnementaux.
-        </li>
-      </ul>
-    </section>
-
-  </main>
-
-  
-  <!-- PIED DE PAGE -->
-  <footer>
-    <div class="footer-content">
-      <p class="footer-text">
-      Diamniadio, une ville en pleine transformation au cœur du développement du Sénégal
-      </p>
-
-      <!-- Navigation du pied de page -->
-    <nav class="footer-nav">
-      <a href="accueil.html">Accueil</a>
-      <a href="histoire.html">Histoire & projet urbain</a>
-      <a href="infrastructures.html">Infrastructures</a>
-      <a href="contact.html">Localisation & Contact</a>
-    </nav>
-        
-    <!-- Ligne basse -->
-     <div class="footer-bottom">
-        <p class="footer-copyright">
-        © 2026 – Site réalisé dans le cadre d’un projet universitaire. Tous droits réservés.
-        </p>
-        <div class="logo-bottom">
-          <img src="image/logoSen.jpg" alt="Logo du Sénégal" id="logo2">
-        </div> 
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
